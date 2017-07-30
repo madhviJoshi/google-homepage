@@ -1,0 +1,1 @@
+This project is to clone google homepage with out any functionalities.

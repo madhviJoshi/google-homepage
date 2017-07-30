@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google Clone Homepage</title>
+<style>
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	opacity: .75; 
+}
+li{
+	float:left;
+}
+li a{
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	text-decoration: underline;
+}
+footer{
+	background-color:#f2f2f2;
+	clear:both;
+}
+#googlelogo{
+	height:233px;
+	margin-top: 89px;
+    clear: both;
+}
+#searchbox{
+	margin-bottom: 20px;
+    width: 36%;
+    font-size: 18pt;
+    clear: both;
+    height: 37px;
+
+}
+#searchbox:hover,#searchbox:active {
+    box-shadow: 6px 10px 9px rgb(243, 243, 243);
+}
+#buttons_google button{
+	height:36px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    clear:both;
+}
+#buttons_google{margin-bottom:120px;}
+#buttons_google button:hover{
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+
+}
+</style>
+</head>
+<body>
+<div>
+<header>
+	<nav>
+		<ul style="float:right">
+		<li><a href="#">Gmail</a></li>
+		<li><a href="#">Images</a></li>
+		<li><a href="#">Google Apps</a></li>
+		</ul>
+	</nav>
+</header>
+</div>
+<center>
+<div id="googlelogo">
+	<img src="images/googlelogo_color_272x92dp.png" height="92" width="272px" style="padding-top: 109px;">
+</div>
+	<div>
+	<form>
+	<input type="text" name="searchbox" id="searchbox" x-webkit-speech>
+	<div id="buttons_google">
+	<button>Google Search</button>
+	<button>I'm Feeling Lucky</button>
+	</div>
+	</form>
+</div>
+</center>
+<div style="clear:both;">
+<footer style="clear:both;">
+<nav>
+	<ul>
+	<li><a href="#">Advertising</a></li>
+	<li><a href="#">Business</a></li>
+	<li><a href="#">About</a></li>
+	
+	<ul style="float:right">
+	<li><a href="#">Privacy</a></li>
+	<li><a href="#">Terms</a></li>
+	<li><a href="#">Settings</a></li>
+	</ul>
+	</ul>
+</nav>		
+</footer>
+</div>
+</body>
+</html>
